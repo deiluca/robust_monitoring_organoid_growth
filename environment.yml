@@ -1,0 +1,15 @@
+name: rob_monit_org_growth
+channels:
+  - defaults
+dependencies:
+  - ipykernel=6.15.1
+  - ipython=8.4.0
+  - jupyter=1.0.0
+  - matplotlib=3.6.0
+  - numpy=1.23.3
+  - pandas=1.5.0
+  - pillow=9.2.0
+  - python=3.9.0
+  - seaborn=0.12.0
+
+
