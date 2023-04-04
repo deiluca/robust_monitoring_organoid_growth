@@ -1,37 +1,57 @@
-# robust_monitoring_organoid_growth
+# Dataset for improving monitoring of organoid growth
 
 This repository reproduces the results of the paper x
 
-Requirements
+## Installation
+```
+git clone https://github.com/deiluca/robust_monitoring_organoid_growth
+```
+Install conda environment
+```
+cd path/to/robust_monitoring_organoid_growth
+conda env create -f environment.yml
+```
 
-1. Install conda
-2. Create environment and install conda
-1. Download data from and unpack in data/
+Activate the conda environment:
+
+```
+conda activate rob_monit_org_growth
+```
+
+## Data preparation
+
+Download the data from Zenodo and unpack it in data/
+
+## Visualization of results
+
+
+All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
+
+### Example of image and corresponding annotation
 
 <img src='plots/example_gt_segmentation.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:300px" />
+     style="float: center; margin-right: 10px; height:150px" />
 
-Results from data_analysis.ipynb
-1. Comparison of segmentation performance
+### Comparison of segmentation performance
 
-<img src='results/dice_scores_segformer_vs_morgana.png'
-     style="float: center; margin-right: 10px; height:300px" />
+<img src='plots/dice_scores_segformer_vs_morgana.png'
+     style="float: center; margin-right: 10px; height:240px" />
 
-<img src='results/dice_scores_per_day_segformer_vs_morgana.png'
-     style="float: center; margin-right: 10px; height:300px" />
+<img src='plots/dice_scores_per_day_segformer_vs_morgana.png'
+     style="float: center; margin-right: 10px; height:200px" />
 
-2. Comparison of predictions
+### Analysis of predictions
 
 <img src='plots/morgana_mlp_c_vs_segformer_one_example_per_day_selected.png'
-     style="float: center; margin-right: 10px; height:700px" />
+     style="float: center; margin-right: 10px; height:800px" />
 
-3. Comparison of growth monitoring
+### Comparison of growth monitoring
 
 <img src='plots/gt_vs_morgana_vs_segformer_org_size.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:300px" />
+     style="float: center; margin-right: 10px; height:200px" />
 
 <img src='plots/gt_vs_morgana_vs_segformer_org_size_rel_to_wt.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:300px" />
+     style="float: center; margin-right: 10px; height:200px" />
