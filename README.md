@@ -31,27 +31,27 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 
 <img src='plots/example_gt_segmentation.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:150px" />
+     style="float: center; margin-right: 10px; height:250px" />
 
 ### Comparison of segmentation performance
 
 <img src='plots/dice_scores_segformer_vs_morgana.png'
-     style="float: center; margin-right: 10px; height:240px" />
+     style="float: center; margin-right: 10px; height:340px" />
 
 <img src='plots/dice_scores_per_day_segformer_vs_morgana.png'
-     style="float: center; margin-right: 10px; height:200px" />
+     style="float: center; margin-right: 10px; height:300px" />
 
 ### Analysis of predictions
 
 <img src='plots/morgana_mlp_c_vs_segformer_one_example_per_day_selected.png'
-     style="float: center; margin-right: 10px; height:800px" />
+     style="float: center; margin-right: 10px; height:1000px" />
 
 ### Comparison of growth monitoring
 
 <img src='plots/gt_vs_morgana_vs_segformer_org_size.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:200px" />
+     style="float: center; margin-right: 10px; height:300px" />
 
 <img src='plots/gt_vs_morgana_vs_segformer_org_size_rel_to_wt.png'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:200px" />
+     style="float: center; margin-right: 10px; height:300px" />
