@@ -1,6 +1,6 @@
 # A large brain organoid dataset for improving state-of-the-art analysis pipelines
 
-This repository reproduces the results of the paper *A large brain organoid dataset reveals weaknesses of state-of-the-art analysis pipelines*
+This repository reproduces the results of the paper *A large brain organoid dataset for improving state-of-the-art analysis pipelines*.
 
 ## Installation
 ```
