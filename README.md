@@ -20,7 +20,7 @@ conda activate rob_monit_org_growth
 
 ## Data preparation
 
-Download the data from Zenodo and unpack it in data/
+Download the data from [Zenodo](https://zenodo.org/deposit/7836864) and unpack it in data/
 
 ## Visualization of results
 
