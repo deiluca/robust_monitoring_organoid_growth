@@ -1,4 +1,4 @@
-# Dataset for improving monitoring of organoid growth
+# A large brain organoid dataset for improving state-of-the-art analysis pipelines
 
 This repository reproduces the results of the paper x
 
