@@ -9,7 +9,10 @@ dependencies:
   - numpy=1.23.3
   - pandas=1.5.0
   - pillow=9.2.0
+  - pyradiomics=v3.0.1b3
   - python=3.9.0
   - seaborn=0.12.0
+  - scikit-learn=1.3.0
+  - simpleitk=2.1.1.1
 
 
