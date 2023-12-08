@@ -29,29 +29,31 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 
 ### Example of image and corresponding annotation
 
-<img src='plots/example_gt_segmentation.png'
+<img src='plots/example_gt_segmentation.svg'
      alt="Markdown Monster icon"
      style="float: center; margin-right: 10px; height:250px" />
 
 ### Comparison of segmentation performance
 
-<img src='plots/dice_scores_segformer_vs_morgana.png'
+<img src='plots/dice_score_distribution.svg'
      style="float: center; margin-right: 10px; height:340px" />
 
-<img src='plots/dice_scores_per_day_segformer_vs_morgana.png'
+<img src='plots/dice_scores_per_day.svg'
      style="float: center; margin-right: 10px; height:300px" />
 
 ### Analysis of predictions
 
-<img src='plots/morgana_mlp_c_vs_segformer_one_example_per_day_selected.png'
+<img src='plots/qualitative_comparison_org3_days_2_8_10_16_30.svg'
      style="float: center; margin-right: 10px; height:1000px" />
 
 ### Comparison of growth monitoring
 
-<img src='plots/gt_vs_morgana_vs_segformer_org_size.png'
+<img src='plots/org_sizes_both_labs_distinct_mm2.svg'
      alt="Markdown Monster icon"
      style="float: center; margin-right: 10px; height:300px" />
 
-<img src='plots/gt_vs_morgana_vs_segformer_org_size_rel_to_wt.png'
+### Clone diversity
+
+<img src='plots/clone_similarity.svg'
      alt="Markdown Monster icon"
      style="float: center; margin-right: 10px; height:300px" />
