@@ -1,3 +1,5 @@
 data/
 data.zip
 .ipynb_checkpoints
+deprecated_data
+model_predictions
