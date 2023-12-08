@@ -50,7 +50,7 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 
 <img src='plots/org_sizes_both_labs_distinct_mm2.svg'
      alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px; height:300px" />
+     style="float: center; margin-right: 10px; height:400px" />
 
 ### Clone diversity
 
