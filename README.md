@@ -61,7 +61,7 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 Please use the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository and the scripts located in [model_training/SegFormer](model_training/SegFormer).s
 
 The data structure required for training the SegFormer model is as follows:
-
+```
 images
 └── split0_test/
     ├── xxx.jpg
@@ -87,3 +87,4 @@ masks
     ├── 123_label.tif
     └── [...]
 └── [...]
+```
