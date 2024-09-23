@@ -24,7 +24,6 @@ Download the data from [Zenodo](https://zenodo.org/records/10301912) and unpack 
 
 ## Visualization of results
 
-
 All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 
 ### Example of image and corresponding annotation
@@ -57,3 +56,34 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
 <img src='plots/clone_similarity.svg'
      alt="Markdown Monster icon"
      style="float: center; margin-right: 10px; height:300px" />
+
+### SegFormer re-training
+Please use the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository and the scripts located in [model_training/SegFormer](model_training/SegFormer).s
+
+The data structure required for training the SegFormer model is as follows:
+
+images
+└── split0_test/
+    ├── xxx.jpg
+    ├── xxy.jpg
+    └── [...]
+└── split0_training/
+    └── xxz.jpg
+    └── [...]
+└── split1_test/
+    ├── 123.jpg
+    └── [...]
+└── [...]
+
+masks
+└── split0_test/
+    ├── xxx_label.tif
+    ├── xxy_label.tif
+    └── [...]
+└── split0_training/
+    └── xxz_label.tif
+    └── [...]
+└── split1_test/
+    ├── 123_label.tif
+    └── [...]
+└── [...]
