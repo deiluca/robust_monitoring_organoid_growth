@@ -58,7 +58,9 @@ All results below are generated in [data_analysis.ipynb](data_analysis.ipynb).
      style="float: center; margin-right: 10px; height:300px" />
 
 ### SegFormer re-training
-Please use the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository and the scripts located in [model_training/SegFormer](model_training/SegFormer).s
+Please use the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository and the scripts located in [model_training/SegFormer](model_training/SegFormer).
+
+The configuration files `segformer_mit-b0.py`, `schedule_160k.py`, and `default_runtime.py`, referenced in the [training config files](model_training/SegFormer/config_files_training/split-0.py), are available in the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository. These files have not been modified from their original versions.
 
 The data structure required for training the SegFormer model is as follows:
 ```
